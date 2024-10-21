@@ -114,7 +114,7 @@ Solution: I ensured that the file paths were correctly specified using forward s
 ## 🌐 Conclusion
 This project demonstrates how to set up a static website hosting solution using AWS S3 and Terraform. It is a great way to familiarise yourself with terraform and AWS services as a beginner. Feel free to fork this repository and adapt it to your needs!
 
-## Dont forget to terraform destroy resources to avoid incurring extra charges from AWS
+### Dont forget to terraform destroy resources to avoid incurring extra charges from AWS
 
 ## 📄 License
 This project is licensed under the MIT License.
