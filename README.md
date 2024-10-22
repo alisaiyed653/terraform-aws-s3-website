@@ -111,10 +111,13 @@ Solution: I updated the code to use the latest recommended attributes as per Ter
 Description: There were issues with specifying the local path for uploading files.
 Solution: I ensured that the file paths were correctly specified using forward slashes and included the full path.
 
+### Things to add to this project
+
+For the inital project using the AWS Console I was able to upload an entire folder which contained multiple files in one go. But Terraform does not have a built-in way to directly upload an entire folder like the AWS Console does.Ideas to consider would be to create a script using python to generate the neccesary Terraform configuration
+
 ## 🌐 Conclusion
 This project demonstrates how to set up a static website hosting solution using AWS S3 and Terraform. It is a great way to familiarise yourself with terraform and AWS services as a beginner. Feel free to fork this repository and adapt it to your needs!
 
 ### Dont forget to terraform destroy resources to avoid incurring extra charges from AWS
 
-## 📄 License
-This project is licensed under the MIT License.
+
